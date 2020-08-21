@@ -1,0 +1,23 @@
+{
+    "name": "Let's Do",
+    "short_name": "ToDo",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#327fc7",
+    "theme_color": "#327fc7",
+    "description": "A Simple ToDo app developed in Flutter",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "favicon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "favicon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
