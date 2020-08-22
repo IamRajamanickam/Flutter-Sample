@@ -1,9 +1,14 @@
 # Flutter-ToDo
 
-A very simple ToDo app developed using [Flutter](https://flutter.dev/) to explore flutter framework and it's concepts.
+**A first baby step..**
+ToDo - A very simple app, developed using [Flutter](https://flutter.dev/) to explore flutter framework and it's concepts.
 
-I am a JAVA developer and don't have much expereince in app development and in
-front language like HTML, CSS, JS etc..
+Myself - a JAVA developer and I don't have much expereince in native app development. This is like my first baby step towards hybrid application development for Andriod, iOS, Windows, macOS, Linux, WearOS etc. using [Flutter](https://flutter.dev/) and [Dart](https://dart.dev/)
+
+A big shout out to the [Flutter Community](https://flutter.dev/community) people for their help and support.
+- Slack - https://fluttercommunity.dev/joinslack
+- Twitter - https://twitter.com/flutterdev
+
 
 **Online DEMO:**
 - WEB - https://flutter-todo-10a04.web.app 
@@ -18,3 +23,16 @@ front language like HTML, CSS, JS etc..
   - Splash Screen for Android and Web.
   - Supported for various platform - Android, iOS, Web, Desktop and
   - PWA - if you don't want to install the app but still you wish to have app like experience then you can use this app as PWA.
+
+# Roadmap
+- [ ] Firebase Integration  
+    - [ ] Authentication - for Login 
+    - [ ] Cloud Firestore or Realtime Database - for storing the data
+    - [ ] Cloud Messaging - for notification
+    - [x] Hosting - for deploying the web app
+- [ ] State management using Provider and BLoC
+- [ ] 'Set Reminder' functionality
+- [ ] Redesigning the app using some cool UI design [ templates ](https://dribbble.com/shots/popular/mobile?tag=to%20do%20app&timeframe=ever)
+
+
+
