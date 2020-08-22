@@ -5,11 +5,11 @@ A very simple ToDo app developed using [Flutter](https://flutter.dev/) to explor
 I am a JAVA developer and don't have much expereince in app development and in
 front language like HTML, CSS, JS etc..
 
-# Online DEMO: 
-WEB - https://flutter-todo-10a04.web.app
-Android and iOS - Soon I'll publish the app in playstore and appstore once I completed the [Roadmap](#Roadmap)
+**Online DEMO:**
+- WEB - https://flutter-todo-10a04.web.app 
+- Android and iOS - Soon I'll publish the app in playstore and appstore once I completed the [Roadmap](#Roadmap)
 
-Widgets and Features: 
+**Widgets and Features:**
   - Layout widgets like [Container](https://api.flutter.dev/flutter/widgets/Container-class.html), [Column](https://api.flutter.dev/flutter/widgets/Column-class.html), [Row](https://api.flutter.dev/flutter/widgets/Row-class.html) and  [etc..](https://flutter.dev/docs/development/ui/widgets/layout)
   - Material widgets like [MaterialApp](https://api.flutter.dev/flutter/material/MaterialApp-class.html), [Scaffold](https://api.flutter.dev/flutter/material/Scaffold-class.html), Sliver Widgets ([SliverAppBar](https://api.flutter.dev/flutter/material/SliverAppBar-class.html), [SliverList](https://api.flutter.dev/flutter/widgets/SliverList-class.html))
   - And lot of basic widgets like Button, AlertDialog, SnackBar and [etc..](https://flutter.dev/docs/development/ui/widgets)
