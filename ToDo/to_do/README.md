@@ -11,11 +11,30 @@ A big shout out to the [Flutter Community](https://flutter.dev/community) people
 - Twitter - https://twitter.com/flutterdev
 
 
-**ToDo App Preview:**
+# ToDo App Preview:
 - WEB - https://flutter-todo-10a04.web.app 
 - Android and iOS - Soon I'll publish the app in playstore and appstore once I completed the [Roadmap](#Roadmap)
 
-if you want to test app then you can download the apk from [here](https://drive.google.com/file/d/14KuqbQFs6htI7_49yW1hXDviADHs2Pt7/view?usp=sharing)
+if you want to test Android app then you can download the apk from [here](https://drive.google.com/file/d/1tBUWJbYb2mv3BMndrYyzu2i3dI-ndnoF/view?usp=sharing)
+
+
+# Screenshot
+<div style="text-align: center"><table><tr>
+  <td style="text-align: center">
+    <img src="https://github.com/Rajamanickam93/Flutter-Sample/blob/master/preview/Android-ToDo.GIF"/>
+</td>
+ <td style="text-align: center">
+    <img src="https://github.com/Rajamanickam93/Flutter-Sample/blob/master/preview/Browser-ToDo.GIF"/>
+</td>
+<td style="text-align: center">
+<img src="https://github.com/Rajamanickam93/Flutter-Sample/blob/master/preview/Windows-ToDo.gif" width="400"/>
+</td>
+  <td style="text-align: center">
+<img src="https://github.com/Rajamanickam93/Flutter-Sample/blob/master/preview/PWA-ToDo.gif" width="200"/>
+</td>
+</tr></table></div>
+
+
 
 **Widgets and Features:**
   - Layout widgets like [Container](https://api.flutter.dev/flutter/widgets/Container-class.html), [Column](https://api.flutter.dev/flutter/widgets/Column-class.html), [Row](https://api.flutter.dev/flutter/widgets/Row-class.html) and  [etc..](https://flutter.dev/docs/development/ui/widgets/layout)
