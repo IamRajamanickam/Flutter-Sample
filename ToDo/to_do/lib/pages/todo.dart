@@ -16,7 +16,6 @@ class _HomePageState extends State<HomePage> {
   static const String pendingToDo_Key = 'pending_todo';
   static const String completedToDo_Key = 'completed_todo';
   List<String> todoList = List.empty(growable: true);
-  List<String> pendingTodoList = List.empty(growable: true);
   List<String> testTodoList = List.empty(growable: true);
   List<String> completedTodoList = List.empty(growable: true);
 
@@ -34,9 +33,9 @@ class _HomePageState extends State<HomePage> {
     fcompletedTodoList = DBHandler().loadData(completedToDo_Key);
 
     fpendingTodoList.then((value) {
-      print('Todo length=$value.length');
       setState(() {
         todoList = value;
+        print('Todo length= ${todoList.length}');
       });
     });
 
@@ -276,7 +275,7 @@ class _HomePageState extends State<HomePage> {
       String completedToDo = todoList.removeAt(index);
       completedTodoList.add(completedToDo);
       Widgets.showSnackBar(context, '$completedToDo Completed');
-      if (testTodoList == null) {
+      if (testTodoList == null || testTodoList.isEmpty) {
         DBHandler().saveData(pendingToDo_Key, todoList);
         DBHandler().saveData(completedToDo_Key, completedTodoList);
       }
@@ -287,7 +286,7 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       fpendingTodoList = DBHandler().loadData(pendingToDo_Key);
       fcompletedTodoList = DBHandler().loadData(completedToDo_Key);
-      fpendingTodoList.then((value) => pendingTodoList = value);
+      fpendingTodoList.then((value) => todoList = value);
       fcompletedTodoList.then((value) => completedTodoList = value);
     });
   }
@@ -295,8 +294,8 @@ class _HomePageState extends State<HomePage> {
   void _addToDo(String todo) {
     setState(() {
       testTodoList = null;
-      if (pendingTodoList != null) pendingTodoList.add(todo);
-      todoList = pendingTodoList;
+      print('${todoList.length}');
+      todoList.add(todo);
       DBHandler().saveData(pendingToDo_Key, todoList);
     });
   }

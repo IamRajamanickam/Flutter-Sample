@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:to_do/db/db_provider.dart';
 import 'package:to_do/pages/widgets.dart';
 import 'package:to_do/utils.dart';
 
@@ -114,6 +115,7 @@ class _CompletedToDoState extends State<CompletedToDo> {
     setState(() {
       String deletedToDo = widget.completedTodoList.removeAt(index);
       Widgets.showSnackBar(context, '$deletedToDo DELETED');
+      DBHandler().saveData('completed_todo', widget.completedTodoList);
     });
   }
 }
