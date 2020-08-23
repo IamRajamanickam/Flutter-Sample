@@ -25,12 +25,15 @@ if you want to test Android app then you can download the apk from [here](https:
     <img src="https://github.com/Rajamanickam93/Flutter-Sample/blob/master/preview/Android-ToDo.GIF"/>
 </td>
  <td style="text-align: center">
+              WEB
     <img src="https://github.com/Rajamanickam93/Flutter-Sample/blob/master/preview/Browser-ToDo.gif"/>
 </td>
 <td style="text-align: center">
+    Desktop - Windows
 <img src="https://github.com/Rajamanickam93/Flutter-Sample/blob/master/preview/Windows-ToDo.gif" width="400"/>
 </td>
   <td style="text-align: center">
+      PWA
 <img src="https://github.com/Rajamanickam93/Flutter-Sample/blob/master/preview/PWA-ToDo.GIF" width="200"/>
 </td>
 </tr></table></div>
